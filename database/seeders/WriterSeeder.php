@@ -9,7 +9,7 @@ class WriterSeeder extends Seeder
 {
     public function run(): void
     {
-        // buat 6 writer contoh
+        
         Writer::factory()->count(6)->create();
     }
 }
